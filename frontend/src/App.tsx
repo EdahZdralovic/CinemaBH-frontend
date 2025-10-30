@@ -1,7 +1,20 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import MainLayout from "./layout/MainLayout";
+import HomePage from "./pages/Home/home";
+import AboutPage from "./pages/AboutUs/about";
+import Tickets from "./pages/Tickets/tickets";
+
+
 export default function App() {
     return (
-        <div className="h-screen flex items-center justify-center bg-blue-500 text-white text-4xl font-bold">
-            Tailwind radi!
-        </div>
-    )
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<MainLayout />}>
+                    <Route index element={<HomePage />} />
+                    <Route path="/aboutus" element={<AboutPage />} />
+                    <Route path="/tickets" element={<Tickets/>} />
+                </Route>
+            </Routes>
+        </BrowserRouter>
+    );
 }

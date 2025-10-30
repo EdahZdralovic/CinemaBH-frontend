@@ -8,7 +8,7 @@
                <a href="/">
                    <div className="flex items-center gap-2 pl-[92px]">
                        <img
-                           src="/assets/Logo.png"
+                           src="/assets/logos/Logo.png"
                            alt="CineBH Logo"
                            width={130}
                            height={32}

@@ -2,13 +2,13 @@
 
 export default function Footer() {
     return (
-        <footer className="fixed h-[212px] bottom-0 pt-14 flex flex-col gap-4 left-0 w-full bg-[linear-gradient(to_right,rgba(26,26,26,1),rgba(178,34,34,1))] ">
+        <footer className="relative h-[212px] bottom-0 pt-14 flex flex-col gap-4 left-0 w-full bg-[linear-gradient(to_right,rgba(26,26,26,1),rgba(178,34,34,1))] ">
           <div className="font-[Urbanist] text-white items-center justify-center text-center">
 
               <a href="/">
                   <div className="flex items-center justify-center">
                       <img
-                          src="/assets/Logo-white.png"
+                          src="/assets/logos/Logo-white.png"
                           alt="CineBH Logo"
                           className="h-[32px] w-[130px] object-contain"
                       />

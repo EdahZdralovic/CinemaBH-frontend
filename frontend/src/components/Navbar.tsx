@@ -17,14 +17,14 @@
                    </div>
                 </a>
 
-                <div className="absolute left-1/2 transform -translate-x-1/2 hidden md:flex items-center gap-6 text-sm ">
-                    <a href="/showing" className="hover:text-white hover:font-semibold hover:underline underline-offset-4">
+                <div className="absolute left-1/2 gap-4 transform -translate-x-1/2 hidden md:flex items-center text-sm ">
+                    <a href="/showing" className=" hover:font-semibold hover:underline underline-offset-4 hover:-mx-[2px]">
                         Currently Showing
                     </a>
-                    <a href="/upcoming" className="hover:text-white hover:font-semibold hover:underline underline-offset-4">
+                    <a href="/upcoming" className="hover:text-white hover:font-semibold hover:underline underline-offset-4 hover:-mx-[2px]">
                         Upcoming Movies
                     </a>
-                    <a href="/venues" className="hover:text-white hover:font-semibold hover:underline underline-offset-4">
+                    <a href="/venues" className="hover:text-white hover:font-semibold hover:underline underline-offset-4 hover:-mx-[1px]">
                         Venues
                     </a>
                 </div>

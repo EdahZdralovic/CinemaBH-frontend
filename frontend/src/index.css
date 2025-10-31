@@ -5,4 +5,7 @@
 @import "@fontsource/urbanist/400.css";
 @import "@fontsource/urbanist/700.css";
 
-
+:root {
+    font-family: "Urbanist", sans-serif;
+    --color-primary: #1D2939;
+}

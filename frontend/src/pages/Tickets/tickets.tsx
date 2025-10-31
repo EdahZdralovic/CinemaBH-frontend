@@ -1,6 +1,6 @@
 import React from "react"
 
-import {Check} from "lucide-react";
+import { Check } from "lucide-react";
 
 export default function Tickets() {
     return (
@@ -16,8 +16,7 @@ export default function Tickets() {
                 </div>
             </div>
             <div className="flex md:flex-row flex-col justify-center md:items-stretch items-center gap-4 md:mt-16 mt-6">
-                <div
-                    className="relative text-center border rounded-3xl border-[#E4E7EC] md:w-[29%] w-10/12 md:mt-10 mb-8 md:mb-24 pb-8 md:min-h-[520px]">
+                <div className="relative text-center border rounded-3xl border-[#E4E7EC] md:w-[29%] w-10/12 md:mt-10 mb-8 md:mb-24 pb-8 md:min-h-[520px]">
                     <h6 className="pt-8 font-bold text-[20px]">Regular Seats</h6>
                     <h4 className="pt-6 font-bold text-[32px]">7KM </h4>
                     <p className="pt-6 font-light text-[16px]">*per ticket</p>
@@ -36,8 +35,7 @@ export default function Tickets() {
                         Explore Movies
                     </button>
                 </div>
-                <div
-                    className="relative text-center border shadow rounded-3xl border-[#98A2B3] md:mt-0 md:w-[29%] w-10/12 mb-8 md:mb-14 pb-8 pt-12 md:min-h-[536px]">
+                <div className="relative text-center border shadow rounded-3xl border-[#98A2B3] md:mt-0 md:w-[29%] w-10/12 mb-8 md:mb-14 pb-8 pt-12 md:min-h-[536px]">
                     <h6 className="pt-8 font-bold  text-[20px]">Love Seats</h6>
                     <h4 className="pt-6 font-bold text-[#B22222] text-[32px]">24KM</h4>
                     <p className="pt-6 font-light text-[16px]">*per ticket</p>
@@ -56,8 +54,7 @@ export default function Tickets() {
                         Explore Movies
                     </button>
                 </div>
-                <div
-                    className="relative text-center border rounded-3xl border-[#E4E7EC] md:w-[29%] w-10/12 md:mt-10 mb-8 md:mb-24 pb-8 md:min-h-[520px]">
+                <div className="relative text-center border rounded-3xl border-[#E4E7EC] md:w-[29%] w-10/12 md:mt-10 mb-8 md:mb-24 pb-8 md:min-h-[520px]">
                     <h6 className="pt-8 font-bold text-[20px]">Vip Seats</h6>
                     <h4 className="pt-6 font-bold text-[32px]">10KM</h4>
                     <p className="pt-6 font-light text-[16px]">*per ticket</p>

@@ -2,10 +2,10 @@ import React from "react"
 
 export default function AboutUs() {
     return (
-        <section className="pt-31 pb-0 bg-white text-[#1D2939]">
+        <section className=" pb-0 bg-white text-[#1D2939]">
             <br/> <br/> <br/>
-            <div className="md:pl-20 mx-auto px-6 grid md:grid-cols-[35%_65%] gap-0 items-center">
-                <div className="space-y-3 font-bold text-2xl leading-8 tracking-[0.5%]">
+            <div className="md:pl-20 pl-4 pr-4 mx-auto px-0 grid md:grid-cols-[35%_65%] gap-0 items-center">
+                <div className="space-y-3 font-bold text-2xl leading-8 tracking-[0.5%] pb-10">
                     <h2>About our dream.</h2>
                     <h2>Our History.</h2>
                     <h2>Cinema.</h2>

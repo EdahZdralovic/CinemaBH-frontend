@@ -1,3 +1,5 @@
+import React from "react"
+
 export default function AboutUs() {
     return (
         <section className="pt-31 pb-16 bg-white text-[#1D2939]">

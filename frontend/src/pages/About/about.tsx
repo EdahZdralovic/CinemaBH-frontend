@@ -2,7 +2,7 @@ import React from "react"
 
 export default function AboutUs() {
     return (
-        <section className="pt-31 pb-16 bg-white text-[#1D2939]">
+        <section className="pt-31 pb-0 bg-white text-[#1D2939]">
             <br/> <br/> <br/>
             <div className="md:pl-20 mx-auto px-6 grid md:grid-cols-[35%_65%] gap-0 items-center">
                 <div className="space-y-3 font-bold text-2xl leading-8 tracking-[0.5%]">
@@ -32,7 +32,7 @@ export default function AboutUs() {
                     </p>
                 </div>
             </div>
-            <div className="mt-12 pb-17 md:pb-0">
+            <div className="mt-10 pb-17 md:pb-0">
                 <img src="/assets/images/about_us_photo_of_seats.jpg"
                     alt="Cinema seats"
                     className="w-full object-cover "/>

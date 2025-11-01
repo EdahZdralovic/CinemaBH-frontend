@@ -1,6 +1,6 @@
 import React from "react"
 
-import {TicketsCard, type TicketsCardProps} from "../../components/Cards/TicketsCard";
+import { TicketsCard, type TicketsCardProps } from "../../components/Cards/TicketsCard";
 
 const TICKETS: TicketsCardProps[] = [
     {

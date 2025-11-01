@@ -1,6 +1,17 @@
 import React from "react";
 
-export default function HomeCardsSection(){
+interface HomeSectionProps {
+    header: string;
+    list:
 
-    return();
+
+     //for venue
+}
+export default function HomeCardsSection({header, list}){
+
+    return(
+        <section className="">
+
+        </section>
+    );
 }

@@ -1,6 +1,6 @@
 import React from "react";
 
-import {Check} from "lucide-react";
+import { Check } from "lucide-react";
 
 export interface TicketsCardProps {
     title: string;
